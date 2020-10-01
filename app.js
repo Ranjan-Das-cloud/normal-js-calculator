@@ -1,4 +1,4 @@
-let color = ["#2ecc71",'#f1c40f', "#9b59b6","#CB4335","#3498DB","#16A085","#2ECC71","#FAD7A0","#E67E22","#D6EAF8","#73C6B6","#85C1E9" "#e67e22"];
+let color = ["#2ecc71",'#f1c40f', "#9b59b6","#CB4335","#3498DB","#16A085","#2ECC71","#FAD7A0","#E67E22","#D6EAF8","#73C6B6","#85C1E9" "#e67e22","#85C1E9","#A3E4D7","#A3E4D7","#F5B7B1","#F39C12","#1ABC9C","#1ABC9C","#2874A6","#B03A2E","#C39BD3"];
 let count = 0;
 document.querySelector('#clear').addEventListener('click', function () {
     count=count%color.length;
